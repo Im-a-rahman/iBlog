@@ -97,8 +97,13 @@ padding: 20px;
 }
 
 .footer {
-    margin-top: 10px;
-    height: 45px;
+    /* margin-top: 10px; */
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 55px;
+    /* margin-left: 10px; */
     background-color: var(--main-bg-color);
     display: flex;
     align-items: center;
