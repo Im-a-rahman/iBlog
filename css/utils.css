@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+@font-face {
+    font-family: abc;
+    src: url(../fonts/Lugate.ttf);
+
+}
+:root{
+    --font1 :'Baloo 2', cursive;
+    --font2 :'Roboto Serif', serif;
+    --main-bg-color: brown;
+    
+}
+
+
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.max-width1 {
+    width: 90vw;
+}
+
+.max-width2 {
+    width: 60vw;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    /* margin: 45px; */
+    font-family: var(--font1);
+    transition: all 0.4s ease-in-out;
+}

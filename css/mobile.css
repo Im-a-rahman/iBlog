@@ -1,0 +1,31 @@
+@media screen and (max-width:1100px){
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        
+    }
+    .navigation span{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .nav-left{
+        text-align: center;
+    }
+    .form-input{
+        font-size: 10px;
+    }
+    .nav-right button{
+        font-size: 12px;
+    }
+    .content-right{
+        display: none;
+    }
+    .content-left h1{
+        line-height: 30px;
+    }
+    .Home-Articles{
+        display: flex;
+        flex-direction: column;
+    }
+}
